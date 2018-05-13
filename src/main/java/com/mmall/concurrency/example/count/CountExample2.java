@@ -17,6 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @Slf4j
 @ThreadSafe
+@SuppressWarnings("Duplicates")
 public class CountExample2 {
 
     public static int clientTotal = 5000;

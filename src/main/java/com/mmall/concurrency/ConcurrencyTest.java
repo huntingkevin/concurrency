@@ -16,6 +16,7 @@ import java.util.concurrent.Semaphore;
 
 @Slf4j
 @NotThreadSafe
+@SuppressWarnings("Duplicates")
 public class ConcurrencyTest {
 
     public static int clientTotal = 5000;

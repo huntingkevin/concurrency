@@ -17,6 +17,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Slf4j
 @ThreadSafe
+@SuppressWarnings("Duplicates")
 public class AtomicExample1 {
 
     public static int clientTotal = 5000;

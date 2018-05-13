@@ -17,6 +17,7 @@ import java.util.concurrent.atomic.LongAdder;
 
 @Slf4j
 @ThreadSafe
+@SuppressWarnings("Duplicates")
 public class AtomicExample2 {
 
     public static int clientTotal = 5000;
